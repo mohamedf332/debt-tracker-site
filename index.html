@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="دفتر الديون — تطبيق شخصي لتتبع الأموال المستحقة لك أو التي عليك.">
+  <title>دفتر الديون | Debt Tracker</title>
+  <style>
+    :root { color-scheme: light; --cyan:#06B6D4; --deep:#0E7490; --ink:#0F172A; --muted:#64748B; --border:#E2E8F0; --paper:#fff; --wash:#F8FAFC; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--wash); color:var(--ink); font:16px/1.8 "Cairo","Segoe UI",Tahoma,sans-serif; }
+    header { background:var(--cyan); color:#083344; padding:44px 20px 38px; }
+    .wrap { width:min(100% - 36px,720px); margin-inline:auto; }
+    .brand { font-size:14px; font-weight:700; opacity:.85; letter-spacing:.03em; }
+    h1 { font-size:clamp(2rem,7vw,3.1rem); line-height:1.2; margin:12px 0; }
+    .tagline { font-size:1.08rem; max-width:36em; margin:0; }
+    main { padding:26px 0 44px; }
+    section { background:var(--paper); border:1px solid var(--border); border-radius:16px; padding:24px; margin:18px 0; }
+    h2 { color:var(--deep); font-size:1.45rem; margin:0 0 12px; }
+    p { margin:8px 0 14px; }
+    ul { margin:8px 0; padding-inline-start:1.35rem; }
+    li { padding:.12rem 0; }
+    a { color:var(--deep); text-underline-offset:3px; }
+    a:hover { color:#155E75; }
+    .links { display:flex; flex-wrap:wrap; gap:12px; margin-top:18px; }
+    .links a { display:inline-block; border:1px solid var(--border); border-radius:9px; padding:8px 13px; text-decoration:none; font-weight:600; }
+    footer { color:var(--muted); border-top:1px solid var(--border); padding:20px 0 32px; font-size:.94rem; }
+    .english { margin-top:28px; }
+    @media (max-width:520px) { header { padding:32px 0; } section { padding:19px; border-radius:12px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap" dir="rtl">
+      <div class="brand">دفتر الديون</div>
+      <h1>تابع ديونك ببساطة</h1>
+      <p class="tagline">تطبيق شخصي يساعدك على تنظيم الأموال المستحقة لك والأموال التي عليك، مع الاحتفاظ ببياناتك على جهازك.</p>
+    </div>
+  </header>
+  <main class="wrap">
+    <section lang="ar" dir="rtl">
+      <h2>عن التطبيق</h2>
+      <p>دفتر الديون هو متتبع شخصي للأموال التي أقرضتها للآخرين أو التي اقترضتها منهم. أنشئ مشروعاً لكل شخص وتابع رصيده ومعاملاته في مكان واحد.</p>
+      <h2>المزايا</h2>
+      <ul>
+        <li>مشروعات مستقلة لكل شخص، ولكل مشروع ميزانية منفصلة.</li>
+        <li>إرفاق صور الإيصالات بالمعاملات.</li>
+        <li>إنشاء تقارير بصيغة PDF.</li>
+        <li>استيراد البيانات وتصديرها بصيغة JSON.</li>
+        <li>نسخ احتياطي اختياري إلى Google Drive الخاص بك.</li>
+      </ul>
+      <h2>بياناتك</h2>
+      <p>تُحفظ بيانات التطبيق على جهازك ولا تُرسل إلى خوادمنا. يمكنك اختيار إنشاء نسخة احتياطية في Google Drive الخاص بك.</p>
+      <nav class="links" aria-label="روابط السياسات">
+        <a href="privacy.html">سياسة الخصوصية</a>
+        <a href="terms.html">شروط الخدمة</a>
+      </nav>
+    </section>
+    <section class="english" lang="en" dir="ltr">
+      <h2>About Debt Tracker</h2>
+      <p>Debt Tracker is a personal tracker for money owed to you and money you owe. Create a project for each person and keep their balance and transactions organized.</p>
+      <h2>Features</h2>
+      <ul>
+        <li>Separate projects and budgets for each person.</li>
+        <li>Attach receipt photos to transactions.</li>
+        <li>Create PDF reports.</li>
+        <li>Import and export data as JSON.</li>
+        <li>Optional backup to your own Google Drive.</li>
+      </ul>
+      <h2>Your data</h2>
+      <p>App data stays on your device and is not sent to our servers. You can optionally create a backup in your own Google Drive.</p>
+      <nav class="links" aria-label="Policy links">
+        <a href="privacy.html">Privacy policy</a>
+        <a href="terms.html">Terms of service</a>
+      </nav>
+    </section>
+  </main>
+  <footer><div class="wrap" dir="rtl">للتواصل: <a href="mailto:mohamedfares.6778@mail.com">mohamedfares.6778@mail.com</a></div></footer>
+</body>
+</html>
