@@ -1,0 +1,85 @@
+name: debt_tracker
+description: "دفتر الديون - تطبيق لتتبع الديون بين المستخدم وأشخاص آخرين مع دعم المشاريع والبادجت"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Database
+  sqflite: ^2.3.3+1
+  sqflite_common: ^2.5.0
+  sqflite_common_ffi: ^2.3.3+1
+  path: ^1.9.0
+  path_provider: ^2.1.4
+
+  # Date/Number formatting
+  intl: ^0.20.2
+
+  # Arabic fonts
+  google_fonts: ^6.2.1
+
+  # Image picking
+  image_picker: ^1.2.3
+  
+  # State management
+  flutter_riverpod: ^2.6.1
+  
+  # Google Sign In
+  google_sign_in: ^6.3.0
+  
+  # Google APIs (Drive)
+  googleapis: ^13.2.0
+  http: ^1.2.2
+  
+  # PDF generation
+  pdf: ^3.13.1
+  printing: ^5.15.1
+
+  # Image decoding for PDF attachments
+  image: ^4.10.1
+  
+  # File sharing/picking
+  share_plus: ^13.0.0
+  file_picker: ^13.1.0
+  # Secure storage
+  flutter_secure_storage: ^11.2.0
+  
+  # Local storage
+  shared_preferences: ^2.3.2
+  
+  # Permissions
+  permission_handler: ^11.3.1
+
+  # Background tasks
+  workmanager: ^0.10.1
+  open_filex: ^4.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  integration_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_icon_1024.png"
+  adaptive_icon_background: "#06B6D4"
+  adaptive_icon_foreground: "assets/app_icon_foreground_1024.png"
+  remove_alpha_ios: true
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/
